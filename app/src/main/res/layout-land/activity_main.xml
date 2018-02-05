@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/a_blue_mountain_sky"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mountain_view" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/top_ll_margin"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="@dimen/land_ll_child_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/udacity_logo"
+            android:scaleType="centerInside"
+            android:src="@drawable/udacity_ow1" />
+
+        <LinearLayout
+            android:layout_width="@dimen/land_ll_child_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/land_ll_top_writ"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/linear_l_height"
+                android:layout_weight="1"
+                android:padding="@dimen/top_child_padding"
+                android:text="@string/expand_your_views"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textAppearance="?android:textAppearanceLargeInverse" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/linear_l_height"
+                android:layout_weight="1"
+                android:padding="@dimen/top_child_padding"
+                android:text="@string/develop_your_future"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textAppearance="?android:textAppearanceLargeInverse" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/bottom_ll_land_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autoLink="web"
+            android:drawableLeft="@drawable/ic_public_white_18dp"
+            android:drawablePadding="@dimen/icon_padding"
+            android:drawableStart="@drawable/ic_public_white_18dp"
+            android:gravity="start"
+            android:text="@string/udacity"
+            android:textAlignment="textStart"
+            android:textColorLink="@color/link_color"
+            android:textSize="@dimen/text_link" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="map"
+            android:drawableLeft="@drawable/ic_location_on_white_18dp"
+            android:drawablePadding="@dimen/icon_padding"
+            android:drawableStart="@drawable/ic_location_on_white_18dp"
+            android:gravity="start"
+            android:text="@string/address_sl"
+            android:textAlignment="textStart"
+            android:textColorLink="@color/link_color"
+            android:textSize="@dimen/text_link" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:drawableLeft="@drawable/ic_phone_white_18dp"
+            android:drawablePadding="@dimen/icon_padding"
+            android:drawableStart="@drawable/ic_phone_white_18dp"
+            android:gravity="start"
+            android:text="@string/phone_number"
+            android:textAlignment="textStart"
+            android:textColorLink="@color/link_color"
+            android:textSize="@dimen/text_link" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
