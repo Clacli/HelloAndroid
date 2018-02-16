@@ -8,7 +8,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:contentDescription="@string/a_blue_mountain_sky"
+        android:contentDescription="@string/a_mountain_view"
         android:scaleType="centerCrop"
         android:src="@drawable/mountain_view" />
 
@@ -88,7 +88,7 @@
             android:drawablePadding="@dimen/icon_padding"
             android:drawableStart="@drawable/ic_location_on_white_18dp"
             android:gravity="start"
-            android:text="@string/address_sl"
+            android:text="@string/land_address"
             android:textAlignment="textStart"
             android:textColorLink="@color/link_color"
             android:textSize="@dimen/text_link" />

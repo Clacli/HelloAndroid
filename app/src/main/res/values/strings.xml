@@ -1,15 +1,14 @@
 <resources>
     <string name="app_name">HelloAndroid</string>
     <string name="udacity"><a href="https://www.udacity.com">Udacity</a></string>
-    <string name="address">2465 Latham St\nMountain View, CA 94043</string>
-    <string name="address_sl">2465 Latham St Mountain View, CA 94043</string>
+    <string name="port_address">2465 Latham St\nMountain View, CA 94043</string>
+    <string name="land_address">2465 Latham St Mountain View, CA 94043</string>
     <string name="phone_number">650 – 555 – 5555</string>
-    <string name="a_blue_mountain_sky">blue_mountain_sky</string>
-    <string name="develop_your_future">develop your future</string>
-    <string name="expand_develop">expand your views develop your future</string>
+    <string name="a_mountain_view">a mountain view</string>
+    <string name="develop_your_future">Develop your future</string>
     <string name="udacity_logo">udacity logo</string>
     <string name="learn_new_skills">learn new skills</string>
-    <string name="expand_your_views">expand your views</string>
+    <string name="expand_your_views">Expand your views</string>
     <string name="learn_more">learn more</string>
     <string name="location_logo">location_icon</string>
     <string name="web_logo">web_icon</string>
