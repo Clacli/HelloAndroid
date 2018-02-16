@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="text_link">18sp</dimen>
-    <dimen name="linear_l_height">0dp</dimen>
-    <dimen name="top_child_padding">10dp</dimen>
-    <dimen name="top_ll_margin">12dp</dimen>
-    <dimen name="bottom_ll_marg">20dp</dimen>
-    <dimen name="icon_padding">3dp</dimen>
-    <dimen name="bottom_ll_land_margin">12dp</dimen>
-    <dimen name="land_ll_child_width">0dp</dimen>
-    <dimen name="land_ll_top_writ">10dp</dimen>
+    <dimen name="text_link">16sp</dimen>
+    <dimen name="linear_layout_height">0dp</dimen>
+    <dimen name="top_linear_layout_child_margin">8dp</dimen>
+    <dimen name="top_linear_layout_margin">16dp</dimen>
+    <dimen name="port_bottom_linear_layout_margin">24dp</dimen>
+    <dimen name="icon_padding">8dp</dimen>
+    <dimen name="land_bottom_linear_layout_margin">16dp</dimen>
+    <dimen name="land_linear_layout_child_width">0dp</dimen>
+    <dimen name="text_size">20sp</dimen>
 </resources>
